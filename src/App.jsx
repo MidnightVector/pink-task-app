@@ -292,7 +292,7 @@ export default function App() {
 
           <main className="space-y-5 md:space-y-6">
             <section className="rounded-[1.75rem] border border-pink-200 bg-pink-50 p-4 shadow-sm sm:rounded-3xl sm:p-5">
-              <h2 className="mb-3 text-xl font-black text-pink-900">Due tomorrow</h2>
+              <span className="text-4xl font-black text-red-600">*</span>
               <div className="space-y-3">
                 {dueTomorrow.length > 0 ? (
                   dueTomorrow.map((task) => (
