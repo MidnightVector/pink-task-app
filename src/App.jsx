@@ -227,7 +227,9 @@ export default function App() {
             <p className="mt-1 text-3xl font-black">{dueToday.length}</p>
           </div>
           <div className="rounded-2xl bg-white/90 backdrop-blur p-4 shadow-lg shadow-pink-100">
-            <p className="text-sm font-bold text-slate-500">Due tomorrow</p>
+            <p className="text-sm font-bold text-slate-500">
+  <span className="text-red-600">*</span> Due tomorrow
+</p>
             <p className="mt-1 text-3xl font-black">{dueTomorrow.length}</p>
           </div>
           <div className="rounded-2xl bg-white/90 backdrop-blur p-4 shadow-lg shadow-pink-100">
